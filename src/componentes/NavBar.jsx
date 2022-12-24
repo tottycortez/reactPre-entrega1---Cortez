@@ -1,4 +1,5 @@
 import React from "react";
+import { Link, NavLink } from "react-router-dom";
 import CartWidget from "./CartWidget";
 
 const NavBar = () => {
@@ -8,23 +9,21 @@ const NavBar = () => {
                 <div className="col-md-6">
                     <nav className="navbar navbar-expand-lg">
                         <div className="container-fluid">
-                            <a className="navbar-brand" href="/index.html"><img src={"imagenes/logoStarWars2.png"} alt={"logo Star Wars"} width={100} /></a>
+                            <Link className="navbar-brand" to="/"><img src={"/imagenes/logoStarWars2.png"} alt={"logo Star Wars"} width={100} /></Link>
                             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                                 <span className="navbar-toggler-icon"></span>
                             </button>
                             <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                                 <ul className="navbar-nav">
+                                   
                                     <li>
-                                        <a className="nav-link" aria-current="page" href="/index.html">Menú Principal</a>
+                                        <NavLink className="nav-link" aria-current="page" to={"/categoria/primera"}>Episodios I-II-III</NavLink>
                                     </li>
                                     <li>
-                                        <a className="nav-link" href="/primerTrilogia">Episodios I-II-III</a>
+                                        <NavLink className="nav-link" to={"/categoria/segunda"}>Episodios IV-V-VI</NavLink>
                                     </li>
                                     <li>
-                                        <a className="nav-link" href="/segundaTrilogia">Episodios IV-V-VI</a>
-                                    </li>
-                                    <li>
-                                        <a className="nav-link" href="/tercerTrilogia">Episodios VII-VIII-IX</a>
+                                        <NavLink className="nav-link" to={"/categoria/tercera"}>Episodios VII-VIII-IX</NavLink>
                                     </li>
                                 </ul>
                             </div>

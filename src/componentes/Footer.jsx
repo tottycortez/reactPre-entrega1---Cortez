@@ -11,11 +11,11 @@ const Footer = () => {
                     <div className="col-md-6 text-end">
                         <p>
                             <a href={"https://www.facebook.com/"} className="me-5" 
-                            rel="noreferrer"><img src={"imagenes/facebook.svg"} alt="facebook" width={30} /></a>
+                            rel="noreferrer"><img src={"/imagenes/facebook.svg"} alt="facebook" width={30} /></a>
                             <a href={"https://www.facebook.com/"} className="me-5" 
-                            rel="noreferrer"><img src={"imagenes/instagram.svg"} alt="instagram" width={30} /></a>
+                            rel="noreferrer"><img src={"/imagenes/instagram.svg"} alt="instagram" width={30} /></a>
                             <a href={"https://www.facebook.com/"} className="me-5" 
-                            rel="noreferrer"><img src={"imagenes/twitter.svg"} alt="twitter" width={30} /></a>
+                            rel="noreferrer"><img src={"/imagenes/twitter.svg"} alt="twitter" width={30} /></a>
                         </p>
                     </div>
                 </div>

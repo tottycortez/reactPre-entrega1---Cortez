@@ -6,7 +6,7 @@ const Bienvenida = () => {
             <div className="container pt-3">
                 <div className="row">
                     <div className="col-md-6 text-end">
-                        <img src={"imagenes/trooper.jpg"} alt="Trooper" width={550} />
+                        <img src={"/imagenes/trooper.jpg"} alt="Trooper" width={550} />
                     </div>
                     <div className="col-md-6 d-flex align-items-center ">
                         <div>
