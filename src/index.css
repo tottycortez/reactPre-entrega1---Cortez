@@ -23,8 +23,16 @@ body {
   background-color: teal;
 }
 
+.fondoNaranja {
+  color: black;
+  background-color: rgb(252, 208, 125);
+}
+
 .footer {
   color: white;
   background-color: #222222;
   text-align: center;
+}
+.colorTexto{
+  color: white;
 }
